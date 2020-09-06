@@ -13,20 +13,199 @@ Version:    1.1.2
 ************************************/
 /*必要ならばここにコードを書く*/
 
+/*--- プロフィールカスタマイズ start---*/
+.author-box {
+    padding: 0 !important;
+}
+
+.pwa .author-box {
+    text-align: left;
+    /* 文字を左揃えに */
+}
+
+.author-box .author-widget-name {
+    color: #666;
+    background-color: #eaedf2;
+    display: inline-block;
+    margin: 0 auto 3px 1rem;
+    padding: .4em;
+    border-radius: 4px;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    font-size: .9em;
+}
+
+.author-box .author-widget-name::before {
+    content: '';
+    position: absolute;
+    left: 20%;
+    bottom: -15px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #eaedf2;
+    border-left: 15px solid transparent;
+    z-index: 1;
+}
+
+.author-box figure.author-thumb {
+    float: none;
+    margin: 0 !important;
+    text-align: center;
+    width: 100% !important;
+    background: url(/wp-content/uploads/2020/09/profile-background.jpg) center no-repeat;
+    /* カバー画像を指定 */
+    background-size: cover;
+    position: relative;
+    height: 0;
+    /* フル表示にしたい場合のpadding-topの値： 表示画像の高さ(px) ÷ 表示画像の幅(px) × 100(%) */
+    padding-top: 50%;
+    z-index: 0;
+}
+
+.author-box figure.author-thumb img {
+    border: 3px solid #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    height: auto;
+    width: 30%;
+    max-width: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -4.5em;
+}
+
+.author-box .author-content {
+    margin-left: 0 !important;
+    margin-top: 5.5em !important;
+}
+
+.author-box .author-content .author-name {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.author-box .author-content .author-name a {
+    color: #14171a;
+    text-decoration: none;
+}
+
+.author-box .author-content .author-name a:hover {
+    color: #14171a;
+    text-decoration: underline;
+}
+
+.author-box .author-content .author-description p {
+    margin: .5em auto;
+    line-height: 1.5 !important;
+    max-width: 500px;
+    font-size: 90%;
+    text-align: left;
+}
+
+.author-box .author-content .author-description p a {
+    text-decoration: none;
+}
+
+.author-box .author-content .author-description p a:hover {
+    text-decoration: underline;
+}
+
+.author-box .author-content .author-follows .sns-buttons {
+    justify-content: center;
+}
+
+.author-box .author-content .author-follows .sns-buttons a.follow-button {
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    margin-bottom: .5em;
+    margin-right: .5em;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.author-box .bc-brand-color.sns-follow .website-button {
+    background-color: #6eb6fd !important;
+}
+
+.author-box .bc-brand-color.sns-follow .twitter-button {
+    background-color: #7dcdf7 !important;
+}
+
+.author-box .bc-brand-color.sns-follow .facebook-button {
+    background-color: #7c9dec !important;
+}
+
+.author-box .bc-brand-color.sns-follow .hatebu-button {
+    background-color: #2c6ebd !important;
+}
+
+.author-box .bc-brand-color.sns-follow .google-plus-button {
+    background-color: #dd4b39 !important;
+}
+
+.author-box .bc-brand-color.sns-follow .instagram-button {
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 80%) no-repeat !important;
+}
+
+.author-box .bc-brand-color.sns-follow .youtube-button {
+    background-color: #cd201f !important;
+}
+
+.author-box .bc-brand-color.sns-follow .flickr-button {
+    background-color: #111 !important;
+}
+
+.author-box .bc-brand-color.sns-follow .pinterest-button {
+    background-color: #bd081c !important;
+}
+
+.author-box .bc-brand-color.sns-follow .line-button {
+    background-color: #00c300 !important;
+}
+
+.author-box .bc-brand-color.sns-follow .amazon-button {
+    background-color: #ff9900 !important;
+}
+
+.author-box .bc-brand-color.sns-follow .github-button {
+    background-color: #4078c0 !important;
+}
+
+.author-box .author-content .author-follows .sns-buttons a.follow-button span {
+    line-height: 40px;
+}
+
+.author-box .author-content .author-follows .sns-buttons a.follow-button span::before {
+    font-size: 20px !important;
+}
+
+main .author-box {
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 80%;
+}
+/*--- プロフィールカスタマイズ end---*/
+
 /************************************
 ** レスポンシブデザイン用のメディアクエリ
 ************************************/
 /*1023px以下*/
-@media screen and (max-width: 1023px){
-  /*必要ならばここにコードを書く*/
+@media screen and (max-width: 1023px) {
+    /*必要ならばここにコードを書く*/
 }
 
 /*834px以下*/
-@media screen and (max-width: 834px){
-  /*必要ならばここにコードを書く*/
+@media screen and (max-width: 834px) {
+    /*必要ならばここにコードを書く*/
 }
 
 /*480px以下*/
-@media screen and (max-width: 480px){
-  /*必要ならばここにコードを書く*/
+@media screen and (max-width: 480px) {
+    /*必要ならばここにコードを書く*/
 }
