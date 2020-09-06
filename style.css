@@ -190,6 +190,12 @@ main .author-box {
     margin: 0 auto;
     font-size: 80%;
 }
+
+/*feedly,rssボタンの非表示*/
+.author-box .bc-brand-color.sns-follow .feedly-button,
+.author-box .bc-brand-color.sns-follow .rss-button {
+    display: none;
+}
 /*--- プロフィールカスタマイズ end---*/
 
 /************************************
