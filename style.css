@@ -170,6 +170,7 @@ main .author-box {
 }
 /*--- プロフィールカスタマイズ end---*/
 
+
 /*--- 固定ページカスタマイズ start---*/
 
 /*sns関連のボタンをすべて非表示*/
@@ -178,7 +179,18 @@ main .author-box {
 display: none;
 }
 
+/*日付を非表示*/
+.page .date-tags,
+.page .author-info {
+display: none;
+}
+
+.page h1.entry-title {
+display: none;
+}
+
 /*--- 固定ページカスタマイズ end---*/
+
 
 /************************************
 ** レスポンシブデザイン用のメディアクエリ
