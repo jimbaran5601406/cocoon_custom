@@ -194,6 +194,11 @@ main .author-box {
     display: none;
 }
 
+/* 目次の中央寄せ解除 */
+.toc-widget-box .toc-center {
+    margin: 0;
+}
+
 /*--------------------
 
 サイドバーカスタマイズ start
