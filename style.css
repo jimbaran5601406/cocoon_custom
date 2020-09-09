@@ -226,4 +226,24 @@ display: none;
 /*480px以下*/
 @media screen and (max-width: 480px) {
     /*必要ならばここにコードを書く*/
+
+/*--------------------
+
+スマホグローバルナビカスタマイズ start
+
+--------------------*/
+
+.mobile-menu-buttons .menu-icon {
+    padding: 10px;
+}
+
+.mobile-menu-buttons span.menu-caption {
+    display: none;
+}
+
+/*--------------------
+
+スマホグローバルナビカスタマイズ end 
+
+--------------------*/
 }
