@@ -255,11 +255,11 @@ display: none;
 
 --------------------*/
 
-.mobile-menu-buttons .menu-icon {
+.mobile-header-menu-buttons .menu-icon {
     padding: 10px;
 }
 
-.mobile-menu-buttons span.menu-caption {
+.mobile-header-menu-buttons span.menu-caption {
     display: none;
 }
 
