@@ -9,7 +9,7 @@ add_editor_style();
 
 //トップページから特定のカテゴリの除外
 function exclude_category( $query ) {
-  if ( $query->is_home() ) {
+  if ( $query->is_home() || $query->is_page() || $query->is_category()) {
     $query->set( 'cat', '-27' );//マイナスをつけてカテゴリIDを除外する
   }
 }
