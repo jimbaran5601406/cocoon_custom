@@ -3,7 +3,7 @@
 //JavaScriptやjQueryで親テーマのjavascript.jsに加えて関数を記入したい時に使用します。
 
 /**
- *任意の長さで文字列を省略するします。
+ *任意の長さで文字列を省略する
  *@param {String} str
  *@param {Number} len
  *@return {String}
