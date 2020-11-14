@@ -13,8 +13,6 @@ Version:    1.1.2
 ************************************/
 /*必要ならばここにコードを書く*/
 
-
-
 /*--------------------
 
 プロフィールカスタマイズ end
@@ -22,158 +20,164 @@ Version:    1.1.2
 --------------------*/
 
 .author-box {
-    padding: 0 !important;
+	padding: 0 !important;
 }
 
 .pwa .author-box {
-    text-align: left;
-    /* 文字を左揃えに */
+	text-align: left;
+	/* 文字を左揃えに */
 }
 
 .author-box .author-widget-name {
-    color: #666;
-    background-color: #eaedf2;
-    display: inline-block;
-    margin: 0 auto 3px 1rem;
-    padding: .4em;
-    border-radius: 4px;
-    font-weight: bold;
-    position: relative;
-    z-index: 2;
-    font-size: .9em;
+	color: #666;
+	background-color: #eaedf2;
+	display: inline-block;
+	margin: 0 auto 3px 1rem;
+	padding: 0.4em;
+	border-radius: 4px;
+	font-weight: bold;
+	position: relative;
+	z-index: 2;
+	font-size: 0.9em;
 }
 
 .author-box .author-widget-name::before {
-    content: '';
-    position: absolute;
-    left: 20%;
-    bottom: -15px;
-    display: block;
-    width: 0;
-    height: 0;
-    border-right: 15px solid transparent;
-    border-top: 15px solid #eaedf2;
-    border-left: 15px solid transparent;
-    z-index: 1;
+	content: "";
+	position: absolute;
+	left: 20%;
+	bottom: -15px;
+	display: block;
+	width: 0;
+	height: 0;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #eaedf2;
+	border-left: 15px solid transparent;
+	z-index: 1;
 }
 
 .author-box figure.author-thumb {
-    float: none;
-    margin: 0 !important;
-    text-align: center;
-    width: 100% !important;
-    background: url(/wp-content/uploads/2020/09/profile-background.jpg) center no-repeat;
-    /* カバー画像を指定 */
-    background-size: cover;
-    position: relative;
-    height: 0;
-    /* フル表示にしたい場合のpadding-topの値： 表示画像の高さ(px) ÷ 表示画像の幅(px) × 100(%) */
-    padding-top: 50%;
-    z-index: 0;
+	float: none;
+	margin: 0 !important;
+	text-align: center;
+	width: 100% !important;
+	background: url(/wp-content/uploads/2020/09/profile-background.jpg) center
+		no-repeat;
+	/* カバー画像を指定 */
+	background-size: cover;
+	position: relative;
+	height: 0;
+	/* フル表示にしたい場合のpadding-topの値： 表示画像の高さ(px) ÷ 表示画像の幅(px) × 100(%) */
+	padding-top: 50%;
+	z-index: 0;
 }
 
 .author-box figure.author-thumb img {
-    border: 3px solid #fff;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-    height: auto;
-    width: 30%;
-    max-width: 200px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    bottom: -4.5em;
+	border: 3px solid #fff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+	height: auto;
+	width: 30%;
+	max-width: 200px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: -4.5em;
 }
 
 .author-box .author-content {
-    margin-left: 0 !important;
-    margin-top: 5.5em !important;
+	margin-left: 0 !important;
+	margin-top: 5.5em !important;
 }
 
 .author-box .author-content .author-name {
-    text-align: center;
-    font-size: 1.3rem;
+	text-align: center;
+	font-size: 1.3rem;
 }
 
 .author-box .author-content .author-name a {
-    color: #14171a;
-    text-decoration: none;
+	color: #14171a;
+	text-decoration: none;
 }
 
 .author-box .author-content .author-name a:hover {
-    color: #14171a;
-    text-decoration: underline;
+	color: #14171a;
+	text-decoration: underline;
 }
 
 .author-box .author-content .author-description p {
-    margin: .5em auto;
-    line-height: 1.5 !important;
-    max-width: 500px;
-    font-size: 90%;
-    text-align: left;
+	margin: 0.5em auto;
+	line-height: 1.5 !important;
+	max-width: 500px;
+	font-size: 90%;
+	text-align: left;
 }
 
 .author-box .author-content .author-description p a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .author-box .author-content .author-description p a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .author-box .author-content .author-follows .sns-buttons {
-    justify-content: center;
+	justify-content: center;
 }
 
 .author-box .author-content .author-follows .sns-buttons a.follow-button {
-    border-radius: 50%;
-    border: none;
-    width: 40px;
-    height: 40px;
-    color: #fff;
-    margin-bottom: .5em;
-    margin-right: .5em;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+	border: none;
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	margin-bottom: 0.5em;
+	margin-right: 0.5em;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .author-box .bc-brand-color.sns-follow .website-button {
-    background-color: #6eb6fd !important;
+	background-color: #6eb6fd !important;
 }
 
 .author-box .bc-brand-color.sns-follow .twitter-button {
-    background-color: #7dcdf7 !important;
+	background-color: #7dcdf7 !important;
 }
 
 .author-box .bc-brand-color.sns-follow .instagram-button {
-    background: linear-gradient(135deg, #427eff 0%, #f13f79 80%) no-repeat !important;
+	background: linear-gradient(135deg, #427eff 0%, #f13f79 80%) no-repeat !important;
 }
 
 .author-box .bc-brand-color.sns-follow .youtube-button {
-    background-color: #cd201f !important;
+	background-color: #cd201f !important;
 }
 
 .author-box .bc-brand-color.sns-follow .github-button {
-    background-color: #4078c0 !important;
+	background-color: #4078c0 !important;
 }
 
 .author-box .author-content .author-follows .sns-buttons a.follow-button span {
-    line-height: 40px;
+	line-height: 40px;
 }
 
-.author-box .author-content .author-follows .sns-buttons a.follow-button span::before {
-    font-size: 20px !important;
+.author-box
+	.author-content
+	.author-follows
+	.sns-buttons
+	a.follow-button
+	span::before {
+	font-size: 20px !important;
 }
 
 main .author-box {
-    max-width: 400px;
-    margin: 0 auto;
-    font-size: 80%;
+	max-width: 400px;
+	margin: 0 auto;
+	font-size: 80%;
 }
 
 /*feedly,rssボタンの非表示*/
 .author-box .bc-brand-color.sns-follow .feedly-button,
 .author-box .bc-brand-color.sns-follow .rss-button {
-    display: none;
+	display: none;
 }
 
 /*--------------------
@@ -181,7 +185,6 @@ main .author-box {
 プロフィールカスタマイズ end
 
 --------------------*/
-
 
 /*--------------------
 
@@ -191,12 +194,12 @@ main .author-box {
 
 /* ボックスメニューディスクリプションを非表示 */
 .box-menu-description {
-    display: none;
+	display: none;
 }
 
 /* 目次の中央寄せ解除 */
 .toc-widget-box .toc-center {
-    margin: 0;
+	margin: 0;
 }
 
 /*--------------------
@@ -205,7 +208,6 @@ main .author-box {
 
 --------------------*/
 
-
 /*--------------------
 
 固定ページカスタマイズ start
@@ -213,15 +215,15 @@ main .author-box {
 --------------------*/
 
 /* sns関連のボタンをすべて非表示 */
-.page .sns-share,
+/* .page .sns-share,
 .page .sns-follow {
 display: none;
-}
+} */
 
 /* 日付を非表示 */
 .page .date-tags,
 .page .author-info {
-display: none;
+	display: none;
 }
 
 /*--------------------
@@ -230,57 +232,55 @@ display: none;
 
 --------------------*/
 
-
-
 /************************************
 ** レスポンシブデザイン用のメディアクエリ
 ************************************/
 /*1023px以下*/
 @media screen and (max-width: 1023px) {
-    /*必要ならばここにコードを書く*/
+	/*必要ならばここにコードを書く*/
 }
 
 /*834px以下*/
 @media screen and (max-width: 834px) {
-    /*必要ならばここにコードを書く*/
+	/*必要ならばここにコードを書く*/
 }
 
 /*480px以下*/
 @media screen and (max-width: 480px) {
-    /*必要ならばここにコードを書く*/
+	/*必要ならばここにコードを書く*/
 
-/*--------------------
+	/*--------------------
 
 スマホグローバルナビカスタマイズ start
 
 --------------------*/
 
-.mobile-header-menu-buttons .menu-icon {
-    padding: 10px;
-}
+	.mobile-header-menu-buttons .menu-icon {
+		padding: 10px;
+	}
 
-.mobile-header-menu-buttons span.menu-caption {
-    display: none;
-}
+	.mobile-header-menu-buttons span.menu-caption {
+		display: none;
+	}
 
-/*--------------------
+	/*--------------------
 
 スマホグローバルナビカスタマイズ end 
 
 --------------------*/
 
-/*--------------------
+	/*--------------------
 
 スマホドロワーメニューカスタマイズ start
 
 --------------------*/
 
-.menu-drawer .menu-item {
-    border-bottom: 1px solid;
-    font-size: 20px;
-}
+	.menu-drawer .menu-item {
+		border-bottom: 1px solid;
+		font-size: 20px;
+	}
 
-/*--------------------
+	/*--------------------
 
 スマホドロワーメニューカスタマイズ end
 
